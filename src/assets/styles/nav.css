@@ -1,0 +1,42 @@
+
+
+  .navContainer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    min-height: 30vh;
+  }
+
+  .languageContainer{
+    width: 90%;
+    height: 30%;
+    border-bottom: solid 1px gray;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+
+  .navMenu{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 70%;
+  }
+
+  p{
+    color: white;
+  }
+
+  .loginDetails{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }

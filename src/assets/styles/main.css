@@ -1,0 +1,41 @@
+.mainContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: rgb(53, 52, 52);
+    height: 100vh;
+    width: 100%;
+}
+
+h2{
+    color: white;
+    text-align: center;
+}
+
+.seeAllButton{
+    background-color: greenyellow;
+    color: black;
+    width: 10%;
+    align-self: center;
+    border: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.ebooksContainer{
+    display: grid;
+    gap: 16px;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.bulkImage{
+    height: 250px;
+}
+
+.showDetailsButton{
+    background-color: greenyellow;
+    color: black;
+    border: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
